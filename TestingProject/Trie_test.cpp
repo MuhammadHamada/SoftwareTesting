@@ -3,31 +3,38 @@
 #include<iostream>
 using namespace std;
 
-TEST_GROUP(TrieTestGroup) {
-	trie*t;
-	void setup() {
-		t = new trie();
-	}
-	void teardown() {
-		delete t;
-	}
-};
+	TEST_GROUP(TrieTestGroup) 
+	{
+		trie*t;
+		void setup() {
+			t = new trie();
+		}
+		void teardown() {
+			delete t;
+		}
+	};
 
-TEST(TrieTestGroup, Test1) {
+
+
+TEST(TrieTestGroup, Test1) 
+{
 	CHECK_FALSE(t->Search("ahmed"));
 }
 
 
-TEST(TrieTestGroup, Test2) {
+TEST(TrieTestGroup, Test2) 
+{
 	t->Insert("ahmed");
 	CHECK_EQUAL(t->Search("ahmed"), true);
 }
 
-TEST(TrieTestGroup, Test3) {
+TEST(TrieTestGroup, Test3) 
+{
 	t->Insert("ahmed");
 	t->Insert("hamada");
 	LONGS_EQUAL(2, t->getNumberOfDistinctWords());
 }
+
 
 TEST(TrieTestGroup, Test4) {
 	t->Insert("ahmed");
@@ -42,7 +49,9 @@ TEST(TrieTestGroup, Test6) {
 	t->Insert("hamada");
 	CHECK(t->DeleteOccurence("hamada"));
 }
-TEST(TrieTestGroup, Test7) {
+
+TEST(TrieTestGroup, Test7) 
+{
 	string s = "hamada";
 	string expected = "ham";
 	t->Insert("ham");
@@ -50,7 +59,11 @@ TEST(TrieTestGroup, Test7) {
 	t->Insert("h");
 	STRCMP_EQUAL(expected.c_str(), t->getLongestPrefix(s.c_str()).c_str());
 }
-TEST(TrieTestGroup, Test8) {
+
+
+
+TEST(TrieTestGroup, Test8) 
+{
 
 	string s = "hamada";
 	string expected = "HAM";
@@ -68,7 +81,9 @@ TEST(TrieTestGroup, Test10) {
 	string expected = "sob";
 	t->Insert("so");
 	t->Insert("sobeih");
-	STRNCMP_EQUAL(expected.c_str(), t->getLongestPrefix(s.c_str()).c_str(), (int)expected.size());
+	STRNCMP_EQUAL(expected.c_str(),
+		t->getLongestPrefix(s.c_str()).c_str(),
+		(int)expected.size());
 }
 TEST(TrieTestGroup, Test11) {
 	t->Insert("sobeih");

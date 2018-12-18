@@ -1,12 +1,7 @@
-﻿  TrieMock.cpp
-c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\trie.h(6): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
-  MathUtilities_test.cpp
-c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(65): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(77): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(122): warning C4018: '<': signed/unsigned mismatch
-c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(137): warning C4018: '<': signed/unsigned mismatch
-  MathUtilities.cpp
-c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities.cpp(25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  Generating Code...
-  TestingProject.vcxproj -> c:\users\mohamed hamada\documents\visual studio 2015\Projects\TestingProject\Debug\TestingProject.exe
-  TestingProject.vcxproj -> c:\users\mohamed hamada\documents\visual studio 2015\Projects\TestingProject\Debug\TestingProject.pdb (Full PDB)
+﻿  MathUtilities_test.cpp
+c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(69): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(81): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(127): warning C4018: '<': signed/unsigned mismatch
+c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(142): warning C4018: '<': signed/unsigned mismatch
+  TestingProject.vcxproj -> C:\Users\Mohamed Hamada\Documents\Visual Studio 2015\Projects\TestingProject\Debug\TestingProject.exe
+  TestingProject.vcxproj -> C:\Users\Mohamed Hamada\Documents\Visual Studio 2015\Projects\TestingProject\Debug\TestingProject.pdb (Full PDB)
