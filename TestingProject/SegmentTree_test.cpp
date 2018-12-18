@@ -37,3 +37,16 @@ TEST(SegmentTreeTestGroup, Test4) {
 TEST(SegmentTreeTestGroup, Test5) {
 	LONGS_EQUAL(40320, Seg.getMul(1, 8, 1, 8, 1));
 }
+
+TEST(SegmentTreeTestGroup, Test6) {
+	CHECK_EQUAL(5, Seg.getMin(5, 8, 1, 8, 1));
+}
+TEST(SegmentTreeTestGroup, Test7) {
+	CHECK_FALSE(7 == Seg.getMax(1, 8, 1, 8, 1));
+}
+TEST(SegmentTreeTestGroup, Test8) {
+	CHECK(10 == Seg.getSum(1, 4, 1, 8, 1));
+}
+TEST(SegmentTreeTestGroup, Test9) {
+	UNSIGNED_LONGS_EQUAL(24, Seg.getMul(1, 4, 1, 8, 1));
+}

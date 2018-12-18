@@ -1,7 +1,6 @@
-﻿  MathUtilities_test.cpp
-c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(69): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(81): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(127): warning C4018: '<': signed/unsigned mismatch
-c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\mathutilities_test.cpp(142): warning C4018: '<': signed/unsigned mismatch
+﻿  SegmentTree_test.cpp
+  SegmentTree.cpp
+c:\users\mohamed hamada\documents\visual studio 2015\projects\testingproject\testingproject\segmenttree.cpp(46): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
   TestingProject.vcxproj -> C:\Users\Mohamed Hamada\Documents\Visual Studio 2015\Projects\TestingProject\Debug\TestingProject.exe
   TestingProject.vcxproj -> C:\Users\Mohamed Hamada\Documents\Visual Studio 2015\Projects\TestingProject\Debug\TestingProject.pdb (Full PDB)

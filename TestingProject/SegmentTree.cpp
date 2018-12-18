@@ -35,7 +35,7 @@ void SegmentTree::Update(int x, int y, node val, int l, int r, int idx)
 
 int SegmentTree::getMax(int x, int y, int l, int r, int idx)
 {
-	if (l > y || r < x)return -1;
+	if (l > y || r < x)return 0;
 	if (l >= x&&r <= y)return tree[idx].max;
 	int mid = (l + r) >> 1;
 	return (getMax(x, y, l, mid, idx << 1), getMax(x, y, mid + 1, r, (idx << 1) + 1));
@@ -67,7 +67,7 @@ int SegmentTree::getGcd(int x, int y, int l, int r, int idx)
 
 int SegmentTree::getMul(int x, int y, int l, int r, int idx)
 {
-	if (l > y || r < x)return 0;
+	if (l > y || r < x)return 1;
 	if (l >= x&&r <= y)return tree[idx].mul;
 	int mid = (l + r) >> 1;
 	return getMul(x, y, l, mid, idx << 1) * getMul(x, y, mid + 1, r, (idx << 1) + 1);
